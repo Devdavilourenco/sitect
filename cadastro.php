@@ -37,13 +37,16 @@
     </head>
 
     <body>
+      <?php
+          require './conexao.php'
+      ?>
 
     <nav>
     <div class="nav-wrapper">
-      <a href="#!" class="brand-logo center">CT BP FiGHT</a>
+      <a href="https://instagram.com/ct_bp_?igshid=Yzg5MTU1MDY=" class="brand-logo center">CT BP FiGHT</a>
       <ul class="left hide-on-med-and-down">
-        <li><a href="index.php">inicio</a></li>
-        <li><a href="professores.php">professores</a></li>
+        <li><a href="index.php">home</a></li>
+        <li><a href="professores.php">treinadores</a></li>
         <li><a href="horarios.php">horários</a></li>
         <li><a href="localizacao.php">localização</a></li>
       </ul>
@@ -52,35 +55,39 @@
  
   <h2><i>realize seu cadastro</i></h2>
 
-
+  <form action="recebe.php" method="post">
 <section>
     <div class="row">
     <form class="col s12">
       <div class="row">
         <div class="input-field col s6">
           <i class="material-icons prefix">account_circle</i>
-          <input id="icon_prefix" type="text" class="validate">
+          <input id="icon_prefix" type="text" class="validate" name="nome">
           <label for="icon_prefix">nome completo</label>
         </div>
         <div class="input-field col s6">
           <i class="material-icons prefix">phone</i>
-          <input id="icon_telephone" type="tel" class="validate">
+          <input id="icon_telephone" type="tel" class="validate" name="telefone">
           <label for="icon_telephone">telefone</label>
         </div>
         <div class="input-field col s6">
           <i class="material-icons prefix">location_on</i>
-          <input id="icon_location_on" type="tel" class="validate">
+          <input id="icon_location_on" type="tel" class="validate" name="endereco">
           <label for="icon_location_on">endereço</label>
         </div>
         <div class="input-field col s6">
           <i class="material-icons prefix">email</i>
-          <input id="icon_email" type="tel" class="validate">
+          <input id="icon_email" type="tel" class="validate" name="email">
           <label for="icon_email">email</label>
         </div>
       </div>
-    </form>
+</form>
   </div>
+  <button class="btn waves-effect waves-light  teal darken-3 medium" type="submit" >Enviar
+                <i class="material-icons right medium">send</i>
+            </button>
 </section><br><br><br><br>
+
 
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -98,7 +105,7 @@
                 <h5 class="white-text">redes sociais</h5>
                 <ul>
                   <li><a class="grey-text text-lighten-3" href="https://wa.me/5585988719784">whatsapp</a></li>
-                  <li><a class="grey-text text-lighten-3" href="https://instagram.com/ct_bp_fight_?igshid=Yzg5MTU1MDY=">instagram</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://instagram.com/ct_bp_?igshid=Yzg5MTU1MDY=">instagram</a></li>
                 </ul>
               </div>
             </div>

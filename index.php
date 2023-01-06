@@ -16,7 +16,7 @@
     color: white;
   } 
   body{
-    background-color:grey;
+    background-color: grey;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -30,19 +30,21 @@
     display: inline-block;
     min-height: 100vh;
     flex-direction: column;
-  
   }
-
+  #nav{
+    background-color:red darken-1;
+    
+  }
       </style>
     </head>
 
     <body>
 
     <nav>
-    <div class="nav-wrapper">
-      <a href="img/historiact.jpg" class="brand-logo center">CT BP FiGHT</a>
+    <div class="nav-wrapper" id="nav">
+      <a href="https://instagram.com/ct_bp_?igshid=Yzg5MTU1MDY=" class="brand-logo center">CT BP FiGHT</a>
       <ul class="left hide-on-med-and-down">
-        <li><a href="index.php">inicio</a></li>
+        <li><a href="index.php">home</a></li>
         <li><a href="professores.php">treinadores</a></li>
         <li><a href="horarios.php">horários</a></li>
         <li><a href="localizacao.php">localização</a></li>
@@ -54,27 +56,27 @@
   <div class="carousel carousel-slider center" data-indicators="true">
     <div class="carousel-fixed-item center">  
     </div>
-    <a href="historia.php">
+    <a href="https://instagram.com/ct_bp_?igshid=Yzg5MTU1MDY=">
     <div class="carousel-item red white-text" href="#one!">
-        <img src="img/historiact.jpg" width="500px" height="300px">
+        <img src="img/graduacao.jpg" width="500px" height="300px">
       <h2>First Panel</h2>
       <p class="white-text">This is your first panel</p>
     </div>
 </a>
   </div><br> 
 
-<h3><i>Treinadores do CT</i></h3>
+<h3><i>modalidades do CT</i></h3>
 
   <section>
   <div class="row">
         <div class="col s12 m4">
           <div class="card">
             <div class="card-image">
-              <img src="img/lutador.png">
+              <img src="img/muaythai2.jpg">
               <span class="card-title"></span>
             </div>
             <div class="card-content">
-              <p>Treinador Davi Lourenço</p>
+              <p>MUAY THAI</p>
             </div>
             <div class="card-action">
               <a href="professores.php">Saiba mais sobre nossos treinadores</a>
@@ -84,11 +86,11 @@
         <div class="col s12 m4">
           <div class="card">
             <div class="card-image">
-              <img src="img/lutador.png">
+              <img src="img/boxe.jpg">
               <span class="card-title"></span>
             </div>
             <div class="card-content">
-              <p>Treinador Davi Lourenço</p>
+              <p>BOXE</p>
             </div>
             <div class="card-action">
               <a href="professores.php">Saiba mais sobre nossos treinadores</a>
@@ -98,20 +100,131 @@
         <div class="col s12 m4">
           <div class="card">
             <div class="card-image">
-              <img src="img/lutador.png">
+              <img src="img/jiujitsu2.jpg">
               <span class="card-title"></span>
             </div>
             <div class="card-content">
-              <p>Treinador Davi Lourenço</p>
+              <p>JIU JITSU</p>
             </div>
             <div class="card-action">
               <a href="professores.php">Saiba mais sobre nossos treinadores</a>
             </div>
           </div>
         </div>
-      </div>  
+      </div>
+</section>
+
+<h3><i>planos de mensalidade</i></h3>
+
+<section>
+  <div class="row">
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/planosct.jpg">
+              <span class="card-title"></span>
+            </div>
+            <div class="card-content">
+              <p>MENSAL</p>
+            </div>
+            <div class="card-action">
+              <a href="https://instagram.com/ct_bp_?igshid=Yzg5MTU1MDY=">Saiba mais sobre nosso CT</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/planosct.jpg">
+              <span class="card-title"></span>
+            </div>
+            <div class="card-content">
+              <p>TRIMESTRAL</p>
+            </div>
+            <div class="card-action">
+              <a href="https://instagram.com/ct_bp_?igshid=Yzg5MTU1MDY=">Saiba mais sobre nosso CT</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/planosct.jpg">
+              <span class="card-title"></span>
+            </div>
+            <div class="card-content">
+              <p>FORMAS DE PAGAMENTO</p>
+            </div>
+            <div class="card-action">
+              <a href="https://instagram.com/ct_bp_?igshid=Yzg5MTU1MDY=">Saiba mais sobre nosso CT</a>
+            </div>
+          </div>
+        </div>
+      </div>
       <br>
 </section>
+
+<h3><i>EVENTOS</i></h3>
+
+<section>
+  <div class="row">
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/graduacao.jpg">
+              <span class="card-title"></span>
+            </div>
+            <div class="card-content">
+              <p>GRADUAÇÃO</p>
+              <p>É um teste fisico e tecnico</p>
+              <p>acontece de 3 em 3 meses</p>
+              <p>para comprovar a evolução dos alunos</p>
+            </div>
+            <div class="card-action">
+              <a href="https://instagram.com/ct_bp_?igshid=Yzg5MTU1MDY=">Saiba mais sobre nosso CT</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/seminario.jpg">
+              <span class="card-title"></span>
+            </div>
+            <div class="card-content">
+              <p>SEMINÁRIO</p>
+              <p>Acontece algumas vezes no ano</p>
+              <p>onde trazemos professores renomados</p>
+              <p>para transmitir seus conhecimentos</p>
+            </div>
+            <div class="card-action">
+              <a href="https://instagram.com/ct_bp_?igshid=Yzg5MTU1MDY=">Saiba mais sobre nosso CT</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/treinadorabell-2.jpg">
+              <span class="card-title"></span>
+            </div>
+            <div class="card-content">
+              <p>AULÃO</p>
+              <p>acontece mensalmente</p>
+              <p>É uma aula que reune todos os alunos do CT</p>
+              <p>podendo ser no proprio CT ou em outros locais</p>
+            </div>
+            <div class="card-action">
+              <a href="https://instagram.com/ct_bp_?igshid=Yzg5MTU1MDY=">Saiba mais sobre nosso CT</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+</section>
+
+
+
 
 
 
@@ -132,7 +245,7 @@
                 <h5 class="white-text">redes sociais</h5>
                 <ul>
                   <li><a class="grey-text text-lighten-3" href="https://wa.me/5585988719784">whatsapp</a></li>
-                  <li><a class="grey-text text-lighten-3" href="https://instagram.com/bell_pereira0602?igshid=Yzg5MTU1MDY=">instagram</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://instagram.com/ct_bp_?igshid=Yzg5MTU1MDY=">instagram</a></li>
                 </ul>
               </div>
             </div>

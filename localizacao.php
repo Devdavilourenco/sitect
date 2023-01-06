@@ -41,10 +41,10 @@
      
     <nav>
     <div class="nav-wrapper">
-      <a href="#!" class="brand-logo center">CT BP FiGHT</a>
+      <a href="https://instagram.com/ct_bp_?igshid=Yzg5MTU1MDY=" class="brand-logo center">CT BP FiGHT</a>
       <ul class="left hide-on-med-and-down">
-      <li><a href="index.php">inicio</a></li>
-        <li><a href="professores.php">professores</a></li>
+      <li><a href="index.php">home</a></li>
+        <li><a href="professores.php">treinadores</a></li>
         <li><a href="horarios.php">horários</a></li>
         <li><a href="localizacao.php">localização</a></li>
       </ul>
@@ -77,7 +77,7 @@
                 <h5 class="white-text">redes sociais</h5>
                 <ul>
                   <li><a class="grey-text text-lighten-3" href="https://wa.me/5585988719784">whatsapp</a></li>
-                  <li><a class="grey-text text-lighten-3" href="https://instagram.com/ct_bp_fight_?igshid=Yzg5MTU1MDY=">instagram</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://instagram.com/ct_bp_?igshid=Yzg5MTU1MDY=">instagram</a></li>
                 </ul>
               </div>
             </div>
