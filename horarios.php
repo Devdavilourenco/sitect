@@ -82,7 +82,7 @@
         <div class="col s12 m4">
           <div class="card">
             <div class="card-image">
-              <img src="img/treino18-2.jpg">
+              <img src="img/treinocanva1.png">
               <span class="card-title"></span>
             </div>
             <div class="card-content">
@@ -100,7 +100,7 @@
         <div class="col s12 m4">
           <div class="card">
             <div class="card-image">
-              <img src="img/treino18.jpg">
+              <img src="img/treinobell1.png">
               <span class="card-title"></span>
             </div>
             <div class="card-content">
@@ -118,7 +118,7 @@
         <div class="col s12 m4">
           <div class="card">
             <div class="card-image">
-              <img src="img/treino18-3.jpg">
+              <img src="img/treinobell2.png">
               <span class="card-title"></span>
             </div>
             <div class="card-content">
@@ -141,7 +141,7 @@
         <div class="col s12 m4">
           <div class="card">
             <div class="card-image">
-              <img src="img/lutador.png">
+              <img src="img/treinocanva2.png">
               <span class="card-title"></span>
             </div>
             <div class="card-content">
@@ -159,7 +159,7 @@
         <div class="col s12 m4">
           <div class="card">
             <div class="card-image">
-              <img src="img/lutador.png">
+              <img src="img/treinocanva3.png">
               <span class="card-title"></span>
             </div>
             <div class="card-content">
@@ -177,7 +177,7 @@
         <div class="col s12 m4">
           <div class="card">
             <div class="card-image">
-              <img src="img/lutador.png">
+              <img src="img/treinoaurelio.png">
               <span class="card-title"></span>
             </div>
             <div class="card-content">

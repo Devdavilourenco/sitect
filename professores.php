@@ -75,13 +75,14 @@
         <div class="col s12 m4">
           <div class="card">
             <div class="card-image">
-              <img src="img/treinadordavi.jpg">
+              <img src="img/davicanva.png">
               <span class="card-title"></span>
             </div>
             <div class="card-content">
               <p>treinador Davi Lourenço</p>
-              <p>no muay thai á quase 4 anos</p>
-              <p>na sexta graduação e tendo participado de diversas outras</p>
+              <p>grau azul escuro de muay thai</p>
+              <p>6 graduações</p>
+              <p>4 anos de muay thai</p>
             </div>
             <div class="card-action">
               <a href="https://instagram.com/ct_bp_?igshid=Yzg5MTU1MDY=">Saiba mais sobre nosso CT</a>
@@ -91,12 +92,14 @@
         <div class="col s12 m4">
           <div class="card">
             <div class="card-image">
-              <img src="img/treinadorabell-3.jpg">
+              <img src="img/bellcanva.png">
               <span class="card-title"></span>
             </div>
             <div class="card-content">
               <p>Treinadora Bell Pereira </p>
               <p>grau preto de muay thai</p>
+              <p>12 graduações</p>
+              <p>12 anos de muay thai</p>
             </div>
             <div class="card-action">
               <a href="https://instagram.com/ct_bp_?igshid=Yzg5MTU1MDY=">Saiba mais sobre nosso CT</a>
@@ -106,11 +109,14 @@
         <div class="col s12 m4">
           <div class="card">
             <div class="card-image">
-              <img src="img/treinadordavi-3.jpg">
+              <img src="img/cordeirocanva.png">
               <span class="card-title"></span>
             </div>
             <div class="card-content">
-              <p>FORMAS DE PAGAMENTO</p>
+              <p>Treinador Cordeiro Cruz</p>
+              <p>grau azul claro de muay thai</p>
+              <p>5 graduações</p>
+              <p>3 anos de muay thai</p>
             </div>
             <div class="card-action">
               <a href="https://instagram.com/ct_bp_?igshid=Yzg5MTU1MDY=">Saiba mais sobre nosso CT</a>

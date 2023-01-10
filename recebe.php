@@ -9,29 +9,34 @@
 
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
+     <script>
+      function voltar(){
+        window.history.forward(index.php);
+      }
+     </script>
 
 
     </head>
 
     <body>
+      <a href="index.php">
+    <input type="submit" value="voltar">
+    </a>
+
         <?php
         require './conexao.php';
             $nome      = $_POST['nome'];
             $telefone  = $_POST['telefone'];
             $endereco  = $_POST['endereco'];
             $email     = $_POST['email'];
-            $login     = $_POST['login'];
-            $senha     = $_POST['senha'];
 
 
             $inserir = $mysqli->query("INSERT INTO cadastro VALUES(
-           '0','$nome','$telefone','$endereco','$email','$login','$senha')");
+           '0','$nome','$telefone','$endereco','$email')");
 
 if ($inserir) {
       
     echo "<center><h2>Cadastro Realizado</h2></center>";
-    echo "<script>ok()</script>";
 }else{
     
     echo "Erro ao cadastrar".  $mysqli->mysql_errno();

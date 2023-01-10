@@ -57,6 +57,15 @@
   #git{
     color:white;
   }
+  #mensalidade{
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+  }
       </style>
     </head>
 
@@ -71,7 +80,6 @@
         <li><a href="horarios.php">horários</a></li>
         <li><a href="localizacao.php">localização</a></li>
         <li><a href="cadastro.php">cadastrar</a></li>
-        <li><a href="adm.php">adm</a></li>
 
       </ul>
     </div>
@@ -82,7 +90,7 @@
     </div>
     <a href="https://instagram.com/ct_bp_?igshid=Yzg5MTU1MDY=">
     <div class="carousel-item red white-text" href="#one!">
-        <img src="img/graduacao.jpg" width="500px" height="300px">
+        <img src="img/carde2.jpg" width="500px" height="300px">
       <h2>First Panel</h2>
       <p class="white-text">This is your first panel</p>
     </div>
@@ -140,8 +148,8 @@
 
 <h3><i>planos de mensalidade</i></h3>
 
-<section>
-  <div class="row">
+<section id="mensalidade">
+  <div class="row" id="plano">
         <div class="col s12 m4">
           <div class="card">
             <div class="card-image">
@@ -163,7 +171,7 @@
               <span class="card-title"></span>
             </div>
             <div class="card-content">
-              <p>TRIMESTRAL</p>
+              <p>MENSAL</p>
             </div>
             <div class="card-action">
               <a href="https://instagram.com/ct_bp_?igshid=Yzg5MTU1MDY=">Saiba mais sobre nosso CT</a>
@@ -177,14 +185,17 @@
               <span class="card-title"></span>
             </div>
             <div class="card-content">
-              <p>FORMAS DE PAGAMENTO</p>
+              <p>MENSAL</p>
             </div>
             <div class="card-action">
               <a href="https://instagram.com/ct_bp_?igshid=Yzg5MTU1MDY=">Saiba mais sobre nosso CT</a>
             </div>
           </div>
         </div>
-      </div>
+  
+        
+
+        
       <br>
 </section>
 
