@@ -10,6 +10,10 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"><!--Importante, faz os icons aparecerem no footrer-->
+        <link rel="stylesheet" href="css/footerindex.css"><!--CSS do footer-->
+        <link rel="stylesheet" href="css/estilobuttonzapinstaface.css">
+
      <style>
   h3{
     text-align: center;
@@ -31,9 +35,27 @@
     min-height: 100vh;
     flex-direction: column;
   }
-  #nav{
+  #nav{m 
     background-color:red darken-1;
     
+  }
+  .page-footer{
+      background-color: firebrick;
+  }
+  .nav-wrapper{
+    background-color:firebrick;
+  }
+  #zap{
+    color:white;
+  }
+  #insta{
+    color:white;
+  }
+  #face{
+    color:white;
+  }
+  #git{
+    color:white;
   }
       </style>
     </head>
@@ -49,6 +71,8 @@
         <li><a href="horarios.php">horários</a></li>
         <li><a href="localizacao.php">localização</a></li>
         <li><a href="cadastro.php">cadastrar</a></li>
+        <li><a href="adm.php">adm</a></li>
+
       </ul>
     </div>
   </nav><br>
@@ -223,11 +247,6 @@
       <br>
 </section>
 
-
-
-
-
-
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
@@ -243,20 +262,25 @@
               </div>
               <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">redes sociais</h5>
-                <ul>
-                  <li><a class="grey-text text-lighten-3" href="https://wa.me/5585988719784">whatsapp</a></li>
-                  <li><a class="grey-text text-lighten-3" href="https://instagram.com/ct_bp_?igshid=Yzg5MTU1MDY=">instagram</a></li>
-                </ul>
+                <div class="todosicon">
+                   <a class="ri-whatsapp-line icon" id="zap" href="https://wa.me/5585988719784" ></a>
+                   <a class="ri-instagram-line icon" id="insta" href="https://instagram.com/ct_bp_?igshid=Yzg5MTU1MDY="></a>
+                   <a class="ri-facebook-line icon" id="face" href="https://instagram.com/ct_bp_?igshid=Yzg5MTU1MDY="></a>
+                </div>
               </div>
             </div>
           </div>
           <div class="footer-copyright">
             <div class="container">
-            <i class="material-icons">copyright</i>2022 Copyright Text Devdavilourenco
+            <i class="material-icons">copyright</i>2023 todos os direitos reservados
+            <p> <a class="ri-github-line icon" id="git" href="https://github.com/Devdavilourenco"></a>Devdavilourenco 
+            desenvolvimento de sistemas web</p> 
             </div>
           </div>
         </footer>
 </main>
     </body>
   </html>
+
+
         

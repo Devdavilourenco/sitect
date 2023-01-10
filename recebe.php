@@ -21,9 +21,12 @@
             $telefone  = $_POST['telefone'];
             $endereco  = $_POST['endereco'];
             $email     = $_POST['email'];
+            $login     = $_POST['login'];
+            $senha     = $_POST['senha'];
+
 
             $inserir = $mysqli->query("INSERT INTO cadastro VALUES(
-           '0','$nome','$telefone','$endereco','$email')");
+           '0','$nome','$telefone','$endereco','$email','$login','$senha')");
 
 if ($inserir) {
       
@@ -36,15 +39,6 @@ if ($inserir) {
 }      
 
         ?>
-
-
-
-
-
-
-
-
-
 
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
